@@ -1,0 +1,76 @@
+#about {
+	text-align: justify;
+}
+
+#about p:first-of-type {
+	padding-bottom: 1rem;
+}
+
+.skills {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.skills span {
+	margin: 0.25rem;
+	padding: 0.25rem 1rem;
+	border-radius: 5px;
+	background-color: var(--color-light-blue);
+	color: var(--color-white);
+}
+
+#main {
+    font-family: "Open Sans", sans-serif;
+    display: block;
+    line-height: 1.8;
+    font-size: 18px;
+  }
+  #main #content {
+    max-width: 760px;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  #main #content .fa {
+    font-size: 42px;
+    color: #333;
+    text-align: center;
+    margin: 50px 5px 0;
+    position: relative;
+    z-index: 1;
+  }
+  #main #content .fa:nth-of-type(2):after {
+    background: #f1c40f;
+    cursor: initial;
+    content: "";
+    display: block;
+    height: 4px;
+    position: absolute;
+    top: 50%;
+    width: 580px;
+    left: 50px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #main #content .fa:hover, #main #content .fa:active, #main #content .fa:focus {
+    color: #111;
+    cursor: pointer;
+  }
+  #main #content p {
+    padding: 20px 20px 0 50px;
+    margin: 7px 0 0 20px;
+    border-left: 4px solid #f1c40f;
+    text-align: left;
+  }
+  
+  .accent {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  @media (max-width: 740px) {
+    #main #content .fa:nth-of-type(2):after {
+      width: 100px;
+    }
+  }

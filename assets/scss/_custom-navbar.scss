@@ -1,0 +1,37 @@
+.navbar {
+	background-color: #aeaeae60;
+
+	border-bottom: none;
+	padding: 30px 0;
+	transition-duration: 0.6s;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+	color: #183532;
+}
+.navbar.bg-light{
+		background-color: var(--color-light-blue)!important;
+}
+
+.navbar-dark .navbar-brand{
+
+  color:#f1c40f;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color:#f1c40f;
+}
+
+/* jQuery Styles
+===================================*/
+.navbar-scroll {
+	background: #ffffff;
+	padding: 0;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+	transition-duration: 0.6s;
+}
+.nav-dropdown-scroll {
+	background: #e7eaea;
+	box-shadow: 0px 10px 9px rgba(0, 0, 0, 0.4);
+}

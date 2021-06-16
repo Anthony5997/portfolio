@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap");
+
+/* || GENERAL STYLES */
+/**********HEADER SECTION *********************/
+
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700';
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+	font-size: 100%;
+	--color-dark-blue: #f1c40f;
+	--color-light-blue: #78757e85;
+	--color-white: #f7f3f3;
+	--color-black-text: #202020;
+	font: 18px/1.5 'Nunito', sans-serif; 
+}
+
+*,
+*:before,
+*:after {
+	margin: 0;
+	box-sizing: inherit;
+}
+
+body {
+	position: relative;
+	font-family: "Baloo Tamma 2";
+	font-size: 1.25rem;
+}
+
+h1 {
+	font-weight: 400;
+	font-size: 2.25rem;
+}
+
+h2 {
+	font-size: 2rem;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.line {
+	margin: 0 auto 2.5rem;
+	width: 70px;
+	height: 2px;
+	border: none;
+	background-color: var(--color-black-text);
+}
+
+/* || UTILITIES */
+
+.sr-only {
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+.beige-bg {
+	background-color: #f5f5e9;
+}
+
+.blue-bg {
+	background-color: var(--color-light-blue);
+}
