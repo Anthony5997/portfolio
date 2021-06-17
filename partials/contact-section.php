@@ -5,28 +5,28 @@
     <div class="modal-wrapper">
       <label class="close" for=""></label>
       <h2 id="modal-title">Envoyez moi un message</h2>
-      <form class="message-form" action="">
-      <div class="input-box">
-        <label for="" class="input-label">Object</label>
-        <input type="text" class="input-text">
-        <hr class="underline">
-        <hr class="underline-focus">
-      </div>
-      <div class="input-box">
-        <label for="" class="input-label">E-mail</label>
-        <input type="text" class="input-text">
-        <hr class="underline">
-        <hr class="underline-focus">
-      </div>
-      <div class="input-box textarea">
-        <label for="" class="input-label">Message</label>
-        <textarea class="input-text"></textarea>
-        <hr class="underline">
-        <hr class="underline-focus">
-      </div>
-      <div class="input-button">
-        <button class="button">Envoyer</button>
-      </div>
+      <form  action="#" class="message-form" method="POST">
+          <div class="input-box">
+            <label for="" class="input-label">Object</label>
+            <input type="text" class="input-text" name="objet" require>
+            <hr class="underline">
+            <hr class="underline-focus">
+          </div>
+          <div class="input-box">
+            <label for="" class="input-label">E-mail</label>
+            <input type="text" class="input-text" name="email" require>
+            <hr class="underline">
+            <hr class="underline-focus">
+          </div>
+          <div class="input-box textarea">
+            <label for="" class="input-label">Message</label>
+            <textarea class="input-text" name="message" require></textarea>
+            <hr class="underline">
+            <hr class="underline-focus">
+          </div>
+          <div class="input-button">
+            <button type="submit" name="envoi">Envoyer</button>
+          </div>
       </form>
     </div>
     </div>

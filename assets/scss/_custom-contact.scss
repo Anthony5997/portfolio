@@ -104,13 +104,14 @@
     text-align: center;
     padding: 20px;
   }
-  .message-form .input-button .button {
+
+  #button-styley {
     border: 1px solid #fff;
     background-color: transparent;
     padding: 10px 20px;
     transition: all 0.4s;
     color: #fff;
-    font-family: "Exo", sans-serif;
+
     cursor: pointer;
   }
   .message-form .input-button .button:hover {

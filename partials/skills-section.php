@@ -146,8 +146,8 @@
         <div class="btn">
             <div class="number"><i class="fa fa-code-fork" aria-hidden="true"></i></div>
             <div class="content">
-                <h2>Code Lover</h2>
-                <p>I really like to code every now and then.</p>
+                <h2>Other tools</h2>
+                <p>Some usefull tools i used for work</p>
                 <a data-fancybox data-src="#cl" href="javascript:;">learn more</a>
             </div>
         </div>
@@ -158,10 +158,10 @@
     <div style="display: none;" id="cs">
         <h2><i class='fas fa-laptop' style='font-size:24px'></i> Html 5</h2>
         <p style="text-align: justify;">
-            <p style="text-align: justify;">HTML : <br>
-                Basic language web for structuring web site and user interface.
+            <p style="text-align: justify;">Tool :  <br>
+            <img src="/portfolio-bt/assets/images/twig.png" style="width:105px; height:75px; box-shadow: none;"><br>
+                Basic language web for structuring web site and user interface. 
             </p>
-            <img src="/portfolio-bt/assets/images/twig.png" style="width:105px; height:75px; box-shadow: none;">
         </p>
     </div>
     <div style="display: none;" id="cbs">
@@ -195,22 +195,25 @@
     <div style="display: none;" id="pe">
         <h2><i class='fas fa-dragon' style='font-size:24px'></i> MySQL</h2>
         <p  style="text-align: justify;"> Database :  <br>
-            YOLO
+            
         </p>
     </div>
     <div style="display: none;" id="ml">
         <h2><i class='fas fa-poll-h' style='font-size:24px'></i> Symfony</h2>
         <p  style="text-align: justify;"> Tools :  <br>
-        <img class="col-sm-1" src="/portfolio-bt/assets/images/twig.png" style="width:105px; height:75px; box-shadow: none; margin-bottom: 10px;"><br>
-        <img class="col-sm-1" src="/portfolio-bt/assets/images/doctrine.png" style="width:105px; height:95px; box-shadow: none; margin-bottom: 10px;"></br>
-
+        <div class="row">
+            <img class="col-sm-1" src="/portfolio-bt/assets/images/twig.png" style="width:105px; height:75px; box-shadow: none; margin-bottom: 10px;"><br>
+            <img class="col-sm-1" src="/portfolio-bt/assets/images/doctrine.png" style="width:105px; height:95px; box-shadow: none; margin-bottom: 10px;"></br>
+        </div>
         Machine learning is the study of computer algorithms that improve automatically through experience. It is seen as a subset of artificial intelligence.
         </p>
     </div>
     <div style="display: none;" id="cl">
-        <h2><i class='fas fa-code' style='font-size:24px'></i> Code Lover</h2>
-        <p  style="text-align: justify;"> Coding is basically the computer language used to develop apps, websites, and software. Without it, we'd have none of the most popular technology we've come to rely on such as Facebook, our smartphones, the browser we choose to view our favorite blogs, or even the blogs themselves. It all runs on code.</p>
-    </div>
-    
-    <h1 style="font-family: 'Sofia';font-size: 22px; color: white;"><small>@umarcbs</small> - UMAR FAROOQ</h1>
+        <h2><i class='fas fa-code' style='font-size:24px'></i> </h2>
+        <p  style="text-align: justify;"> Coding is basically the computer language used to develop apps, websites, and software.</p>
+        <div class="row">
+            <img class="col-sm-1" src="/portfolio-bt/assets/images/twig.png" style="width:105px; height:75px; box-shadow: none; margin-bottom: 10px;"><br>
+            <img class="col-sm-1" src="/portfolio-bt/assets/images/doctrine.png" style="width:105px; height:95px; box-shadow: none; margin-bottom: 10px;"></br>
+        </div>
+    </div>  
 </section>
