@@ -109,30 +109,24 @@ if (isset($_POST['envoi']))
 
 		if ((($copie == 'oui') && ($num_emails == 2)) || (($copie == 'non') && ($num_emails == 1)))
 		{
-
-			/*echo '<p>'.$message_envoye.'</p>';*/
-
-            header('Location: /portfolio-bt/index.php?#=contact&mail=message_envoyé');
-
+            header('Location: /portfolio-bt/index.php?mail=Message envoyé');
 		}
 		else
 		{
-			header('Location: /portfolio-bt/index.php?#=contact&mail=L\'envoi du mail a échoué, veuillez réessayer SVP.');
-			echo '<p>'.$message_non_envoye.'</p>';
+			header('Location: /portfolio-bt/index.php?mail=L\'envoi du mail a échoué, veuillez réessayer SVP.');
+
 		};
 	}
 	else
 	{
 		// une des 3 variables (ou plus) est vide ...
-		echo '<p>'.$message_formulaire_invalide.'</p>';
+		header('Location: /portfolio-bt/index.php?mail=Vérifiez que tous les champs soient bien remplis et que le mail soit sans erreur.');
 		$err_formulaire = true;
 	};
 }; // fin du if (!isset($_POST['envoi']))
 
 if (($err_formulaire) || (!isset($_POST['envoi'])))
 {
-
-  header('Location: /portfolio-bt/index.php?#=contact&mail=message_envoyé');
-
+  header('Location: /portfolio-bt/index.php?mail=Vérifiez que tous les champs soient bien remplis et que le mail soit sans erreur.');
 }
 ?>

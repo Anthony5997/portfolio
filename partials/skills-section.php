@@ -158,9 +158,9 @@
     <div style="display: none;" id="cs">
         <h2><i class='fas fa-laptop' style='font-size:24px'></i> Html 5</h2>
         <p style="text-align: justify;">
-            <p style="text-align: justify;">Tool :  <br>
-            <img src="/portfolio-bt/assets/images/twig.png" style="width:105px; height:75px; box-shadow: none;"><br>
-                Basic language web for structuring web site and user interface. 
+            <p style="text-align: justify;">Related language :  <br>
+            <img src="assets/images/twig.png" style="width:105px; height:75px; box-shadow: none;"><br>
+                Basic language web for structuring web site and user interface, send form.
             </p>
         </p>
     </div>
@@ -168,10 +168,10 @@
         <h2><i class='fas fa-shield-alt' style='font-size:24px'></i> CSS</h2>
         <p style="text-align: justify;"> Tools and Frameworks :  <br>
             <div class="row">
-                <img src="/portfolio-bt/assets/images/bootstrap.jpg" style="width:105px; height:75px; box-shadow: none;">
-                <img src="/portfolio-bt/assets/images/materialize.png" style="width:120px; height:55px; margin-top: 15px; box-shadow: none;">
-                <img src="/portfolio-bt/assets/images/sass.png" style="width:105px; height:75px; box-shadow: none;">
-                <img src="/portfolio-bt/assets/images/codyhouse.png" style="width:105px; height:75px; box-shadow: none;">
+                <img src="assets/images/bootstrap.jpg" style="width:105px; height:75px; box-shadow: none;">
+                <img src="assets/images/materialize.png" style="width:120px; height:55px; margin-top: 15px; box-shadow: none;">
+                <img src="assets/images/sass.png" style="width:105px; height:75px; box-shadow: none;">
+                <img src="assets/images/codyhouse.png" style="width:105px; height:75px; box-shadow: none;">
             </div>
             <br>
             I used many CSS's framework and library in many project like Boostrap, Materialize and CodyHouse. Using Sass for compiled css version.
@@ -180,40 +180,41 @@
     <div style="display: none;" id="eh">
         <h2><i class='fas fa-theater-masks' style='font-size:24px'></i> PHP</h2>
         <p  style="text-align: justify;"> Tools and Frameworks : <br>
-            <img class="col-sm-1" src="/portfolio-bt/assets/images/synfony-mini.jpg" style="width:130px; height:90px; box-shadow: none; margin-bottom: 10px;">
-            <img class="col-sm-1" src="/portfolio-bt/assets/images/twig.png" style="width:105px; height:75px; box-shadow: none; margin-bottom: 10px;"><br>
+            <img class="col-sm-1" src="assets/images/synfony-mini.jpg" style="width:130px; height:90px; box-shadow: none; margin-bottom: 10px;">
+            <img class="col-sm-1" src="assets/images/twig.png" style="width:105px; height:75px; box-shadow: none; margin-bottom: 10px;"><br>
             I realise many project on PHP. First in the procedural way, then in Oriented Object. I used many tool in PHP like the twig language, even if twig in perfect with symfony, this language can work in standalone.
         </p>
     </div>
     <div style="display: none;" id="wd">
         <h2><i class='fas fa-laptop-house' style='font-size:24px'></i> Javascript</h2>
         <p  style="text-align: justify;"> Framework : <br>
-        <img class="col-sm-1" src="/portfolio-bt/assets/images/jquery.png" style="width:105px; height:75px; box-shadow: none; margin-bottom: 10px;"></br>
-        I like to use js for asynchrone with json and the fetch method. I practice Jquery too, for add short and working script instead of basic Javascript. 
+        <img class="col-sm-1" src="assets/images/jquery.png" style="width:105px; height:75px; box-shadow: none; margin-bottom: 10px;"></br>
+        I like to use js for asynchrone with json and the fetch method. I practice Jquery too, to add short and working script instead of vanilla Javascript. 
         </p>
     </div>
     <div style="display: none;" id="pe">
         <h2><i class='fas fa-dragon' style='font-size:24px'></i> MySQL</h2>
         <p  style="text-align: justify;"> Database :  <br>
-            
+            Send request, to database for create/read/update or delete data. 
         </p>
     </div>
     <div style="display: none;" id="ml">
         <h2><i class='fas fa-poll-h' style='font-size:24px'></i> Symfony</h2>
         <p  style="text-align: justify;"> Tools :  <br>
         <div class="row">
-            <img class="col-sm-1" src="/portfolio-bt/assets/images/twig.png" style="width:105px; height:75px; box-shadow: none; margin-bottom: 10px;"><br>
-            <img class="col-sm-1" src="/portfolio-bt/assets/images/doctrine.png" style="width:105px; height:95px; box-shadow: none; margin-bottom: 10px;"></br>
+            <img class="col-sm-1" src="assets/images/twig.png" style="width:105px; height:75px; box-shadow: none; margin-bottom: 10px;"><br>
+            <img class="col-sm-1" src="assets/images/doctrine.png" style="width:105px; height:95px; box-shadow: none; margin-bottom: 10px;"></br>
         </div>
-        Machine learning is the study of computer algorithms that improve automatically through experience. It is seen as a subset of artificial intelligence.
+        I just want to be part of 
         </p>
     </div>
     <div style="display: none;" id="cl">
         <h2><i class='fas fa-code' style='font-size:24px'></i> </h2>
-        <p  style="text-align: justify;"> Coding is basically the computer language used to develop apps, websites, and software.</p>
         <div class="row">
-            <img class="col-sm-1" src="/portfolio-bt/assets/images/twig.png" style="width:105px; height:75px; box-shadow: none; margin-bottom: 10px;"><br>
-            <img class="col-sm-1" src="/portfolio-bt/assets/images/doctrine.png" style="width:105px; height:95px; box-shadow: none; margin-bottom: 10px;"></br>
+            <img class="col-sm-1" src="assets/images/github.png" style="width:105px; height:75px; box-shadow: none; margin-bottom: 10px;"><br>
+            <img class="col-sm-1" src="assets/images/term.png" style="width:105px; height:95px; box-shadow: none; margin-bottom: 10px;"></br>
+            <img class="col-sm-1" src="assets/images/stackoverflow.png" style="width:105px; height:95px; box-shadow: none; margin-bottom: 10px;"></br>
         </div>
+        <p  style="text-align: justify;"> Tool I used all the time in my work. Also for collaborative work with github.</p>
     </div>  
 </section>

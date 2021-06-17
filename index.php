@@ -20,10 +20,11 @@
 <body>
 <?php include('partials/navbar.php');?>
 <main>
-<?php include('partials/header.php');?>
-<?php include('partials/skills-section.php');?>
-<?php include('partials/about-section.php');?>
-<?php include('partials/timeline-section.php');?>
+<?php include('partials/header.php');
+ include('partials/skills-section.php');
+ include('partials/about-section.php');
+ include('partials/timeline-section.php');
+ ?>
 <hr>
 <?php include('partials/project-section.php');?>
     </main>
