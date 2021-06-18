@@ -1,21 +1,16 @@
-$(document).ready(function (){
-    wordflick()
-})
-
-let words = ['|  ', '|  ', 'Web Developer','Mobile Developer'],
-part,
-a = 0,
-offset = 0,
-len = words.length,
-forwards = true,
-skip_count = 0,
-skip_delay = 5,
-speed = 170;
-
-let wordflick = function(){
-setInterval(function(){
+var words = ['|  ', '|  ', 'Web Developer', 'Mobile Developer', ''],
+    part,
+    countWord = 0,
+    offset = 0,
+    len = words.length,
+    forwards = true,
+    skip_count = 0,
+    skip_delay = 15,
+    speed = 90;
+var wordflick = function () {
+  setInterval(function () {
     if (forwards) {
-      if(offset >= words[a].length){
+      if (offset >= words[countWord].length) {
         ++skip_count;
         if (skip_count == skip_delay) {
           forwards = false;
@@ -24,16 +19,16 @@ setInterval(function(){
       }
     }
     else {
-       if(offset == 0){
-          forwards = true;
-          a++;
-          offset = 0;
-          if(a >= len){
-            a=0;
-          } 
-       }
+      if (offset == 0) {
+        forwards = true;
+        countWord++;
+        offset = 0;
+        if (countWord >= len) {
+          countWord = 0;
+        }
+      }
     }
-    part = words[a].substr(0, offset);
+    part = words[countWord].substr(0, offset);
     if (skip_count == 0) {
       if (forwards) {
         offset++;
@@ -42,6 +37,10 @@ setInterval(function(){
         offset--;
       }
     }
-      $('.web-dev').text(part);
-},speed);
+    $('.web-dev').text(part);
+  },speed);
 };
+
+$(document).ready(function () {
+  wordflick();
+});

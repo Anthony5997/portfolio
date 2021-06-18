@@ -1,5 +1,10 @@
 (function ($) {
     $(function () {
+      $(window).scroll(function(){
+
+      if($(window).scrollTop() >= 1050){
+
+      
       $(window).on("scroll", function () {
         fnOnScroll();
       });
@@ -69,5 +74,8 @@
         agFlag || requestAnimationFrame(fnUpdateWindow);
         agFlag = true;
       }
+    }
+  })
+
     });
   })(jQuery);

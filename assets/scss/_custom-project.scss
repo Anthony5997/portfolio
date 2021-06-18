@@ -38,10 +38,12 @@
   opacity: 0;
   transform: translateY(20%);
   transition: all 0.6s cubic-bezier(0, 0, 0.2, 0.8);
+  pointer-events: none;
 }
 .slide-item.active {
   opacity: 1;
   transform: translateY(0);
+  pointer-events: initial;
 }
 .slide-item.leave {
   opacity: 0;
