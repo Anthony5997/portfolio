@@ -42,7 +42,6 @@ setInterval(function(){
         offset--;
       }
     }
-    console.log("heho")
       $('.web-dev').text(part);
 },speed);
 };

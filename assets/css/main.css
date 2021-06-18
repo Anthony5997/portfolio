@@ -6072,6 +6072,78 @@ h2, .h2 {
   background-color: var(--color-light-blue);
 }
 
+/****BACK TO TOP *****/
+#button {
+  display: inline-block;
+  background-color: #FF9800;
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+#button::after {
+  content: "";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+
+#button:active {
+  background-color: #555;
+}
+
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Styles for the content section */
+.content {
+  width: 77%;
+  margin: 50px auto;
+  font-family: "Merriweather", serif;
+  font-size: 17px;
+  color: #6c767a;
+  line-height: 1.9;
+}
+
+@media (min-width: 500px) {
+  .content {
+    width: 43%;
+  }
+
+  #button {
+    margin: 30px;
+  }
+}
+.content h1, .content .h1 {
+  margin-bottom: -10px;
+  color: #03a9f4;
+  line-height: 1.5;
+}
+
+.content h3, .content .h3 {
+  font-style: italic;
+  color: #96a2a7;
+}
+
 .navbar {
   background-color: #aeaeae60;
   border-bottom: none;
@@ -6378,37 +6450,37 @@ h1, .h1 {
 }
 
 .accordion ul li:nth-child(1) {
-  background-image: url("/portfolio-bt/assets/images/html5.jpg");
+  background-image: url("/assets/images/html5.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .accordion ul li:nth-child(2) {
-  background-image: url("/portfolio-bt/assets/images/css3.jpg");
+  background-image: url("/assets/images/css3.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .accordion ul li:nth-child(3) {
-  background-image: url("/portfolio-bt/assets/images/php.png");
+  background-image: url("/assets/images/php.png");
   background-position: center;
   background-size: cover;
 }
 
 .accordion ul li:nth-child(4) {
-  background-image: url("/portfolio-bt/assets/images/javascript.png");
+  background-image: url("/assets/images/javascript.png");
   background-position: center;
   background-size: cover;
 }
 
 .accordion ul li:nth-child(5) {
-  background-image: url("/portfolio-bt/assets/images/mysql.png");
+  background-image: url("/assets/images/mysql.png");
   background-position: center;
   background-size: cover;
 }
 
 .accordion ul li:nth-child(6) {
-  background-image: url("/portfolio-bt/assets/images/symfony.jpg");
+  background-image: url("/assets/images/symfony.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -7331,7 +7403,8 @@ a.button:hover {
 .active + .modal-overlay {
   opacity: 1;
   transform: scale(1);
-  z-index: 800;
+  z-index: 1040;
+  overflow-y: scroll;
 }
 
 .message-form {
@@ -7344,13 +7417,12 @@ a.button:hover {
   padding: 20px;
 }
 
-.message-form .input-button .button {
+#button-styley {
   border: 1px solid #fff;
   background-color: transparent;
   padding: 10px 20px;
   transition: all 0.4s;
   color: #fff;
-  font-family: "Exo", sans-serif;
   cursor: pointer;
 }
 
@@ -7379,13 +7451,13 @@ a.button:hover {
 
 .message-form .input-box.focus.textarea {
   overflow-y: hidden;
-  height: 200px;
+  height: 160px;
   /* approximate max height */
   padding: 0 0 60px;
 }
 
 .message-form .input-box.focus.textarea .input-text {
-  max-height: 200px;
+  max-height: 160px;
   margin-top: 45px;
   padding-top: 0;
 }

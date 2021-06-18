@@ -1,12 +1,15 @@
 $(".button").on("click", function (e) {
    e.preventDefault();
    $(this).addClass("active");
+   $("body").css("overflow-y" ,"hidden" )
+console.log("oui");
  });
  
  $(".modal-wrapper")
    .find("label")
    .on("click", function () {
      $(".button").removeClass("active");
+     $("body").css("overflow-y", "scroll")
    });
  
  $(".input-text").focus(function () {

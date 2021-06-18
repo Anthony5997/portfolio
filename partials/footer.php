@@ -14,15 +14,29 @@
 						<label class="close" for=""></label>
 						<h2 id="modal-title">Send me a message</h2>
 						<form  action="partials/process-mail.php" class="message-form" method="POST">
-							<div class="input-box">
-								<label for="" class="input-label">Object</label>
-								<input type="text" class="input-text" name="objet">
-								<hr class="underline">
-								<hr class="underline-focus">
+							<div class="row">
+								<div class="input-box col-sm-5 col-12">
+									<label for="" class="input-label">First Name</label>
+									<input type="text" class="input-text" name="prenom">
+									<hr class="underline">
+									<hr class="underline-focus">
+								</div>
+								<div class="input-box col-sm-5 col-12">
+									<label for="" class="input-label">Last Name</label>
+									<input type="text" class="input-text" name="nom">
+									<hr class="underline">
+									<hr class="underline-focus">
+								</div>
 							</div>
 							<div class="input-box">
 								<label for="" class="input-label">E-mail</label>
 								<input type="text" class="input-text" name="email">
+								<hr class="underline">
+								<hr class="underline-focus">
+							</div>
+							<div class="input-box">
+								<label for="" class="input-label">Object</label>
+								<input type="text" class="input-text" name="objet">
 								<hr class="underline">
 								<hr class="underline-focus">
 							</div>
@@ -74,15 +88,29 @@
 										<label class="close" for=""></label>
 										<h2 id="modal-title">Send me a message</h2>
 										<form class="message-form" method="POST" action="partials/process-mail.php">
-											<div class="input-box">
-												<label for="" class="input-label">Object</label>
-												<input type="text" class="input-text" name="objet">
-												<hr class="underline">
-												<hr class="underline-focus">
+											<div class="row">
+												<div class="input-box col-sm-5 col-12">
+													<label for="" class="input-label">First Name</label>
+													<input type="text" class="input-text" name="prenom">
+													<hr class="underline">
+													<hr class="underline-focus">
+												</div>
+												<div class="input-box col-sm-5 col-12">
+													<label for="" class="input-label">Last Name</label>
+													<input type="text" class="input-text" name="nom">
+													<hr class="underline">
+													<hr class="underline-focus">
+												</div>
 											</div>
 											<div class="input-box">
 												<label for="" class="input-label">E-mail</label>
 												<input type="text" class="input-text" name="email">
+												<hr class="underline">
+												<hr class="underline-focus">
+											</div>
+											<div class="input-box">
+												<label for="" class="input-label">Object</label>
+												<input type="text" class="input-text" name="objet">
 												<hr class="underline">
 												<hr class="underline-focus">
 											</div>

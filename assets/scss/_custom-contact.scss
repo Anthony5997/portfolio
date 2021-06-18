@@ -93,7 +93,8 @@
   .active + .modal-overlay {
     opacity: 1;
     transform: scale(1);
-    z-index: 800;
+    z-index: 1040;
+    overflow-y: scroll;
   }
   
   .message-form {
@@ -135,12 +136,12 @@
   }
   .message-form .input-box.focus.textarea {
     overflow-y: hidden;
-    height: 200px;
+    height: 160px;
     /* approximate max height */
     padding: 0 0 60px;
   }
   .message-form .input-box.focus.textarea .input-text {
-    max-height: 200px;
+    max-height: 160px;
     margin-top: 45px;
     padding-top: 0;
   }
