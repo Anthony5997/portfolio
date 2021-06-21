@@ -18,7 +18,7 @@
                 <div class="ag-timeline-card_item">
                 <div class="ag-timeline-card_inner">
                     <div class="ag-timeline-card_img-box">
-                    <img src="assets/images/simplon.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
+                    <img src="assets/images/simplon.webp" class="ag-timeline-card_img" width="640" height="360" alt="" />
                     </div>
                     <div class="ag-timeline-card_info">
                     <div class="ag-timeline-card_title">Simplon.co</div>
@@ -43,7 +43,7 @@
                 <div class="ag-timeline-card_item">
                 <div class="ag-timeline-card_inner">
                     <div class="ag-timeline-card_img-box">
-                    <img src="assets/images/42.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
+                    <img src="assets/images/42.webp" class="ag-timeline-card_img" width="640" height="360" alt="" />
                     </div>
                     <div class="ag-timeline-card_info">
                     <div class="ag-timeline-card_title">42 pool</div>
@@ -68,7 +68,7 @@
                 <div class="ag-timeline-card_item">
                 <div class="ag-timeline-card_inner">
                     <div class="ag-timeline-card_img-box">
-                    <img src="assets/images/greta.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
+                    <img src="assets/images/greta.webp" class="ag-timeline-card_img" width="640" height="360" alt="" />
                     </div>
                     <div class="ag-timeline-card_info">
                     <div class="ag-timeline-card_title">Dev Web Greta</div>
@@ -94,7 +94,7 @@
                 <div class="ag-timeline-card_item">
                 <div class="ag-timeline-card_inner">
                     <div class="ag-timeline-card_img-box">
-                    <img src="assets/images/web-dev.jpg" class="ag-timeline-card_img" width="640" height="360" alt=""/>
+                    <img src="assets/images/web-dev.webp" class="ag-timeline-card_img" width="640" height="360" alt=""/>
                     </div>
                     <div class="ag-timeline-card_info">
                     <div class="ag-timeline-card_title">Start</div>

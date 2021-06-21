@@ -137,37 +137,37 @@ h1 {
 }
 
 .accordion ul li:nth-child(1) {
-  background-image: url("/assets/images/html5.jpg");
+  background-image: url("/assets/images/html5.webp");
   background-position: center;
   background-size: cover;
 }
 
 .accordion ul li:nth-child(2) {
-  background-image: url("/assets/images/css3.jpg");
+  background-image: url("/assets/images/css3.webp");
   background-position: center;
   background-size: cover;
 }
 
 .accordion ul li:nth-child(3) {
-  background-image: url("/assets/images/php.png");
+  background-image: url("/assets/images/php.webp");
   background-position: center;
   background-size: cover;
 }
 
 .accordion ul li:nth-child(4) {
-  background-image: url("/assets/images/javascript.png");
+  background-image: url("/assets/images/javascript.webp");
   background-position: center;
   background-size: cover;
 }
 
 .accordion ul li:nth-child(5) {
-  background-image: url("/assets/images/mysql.png");
+  background-image: url("/assets/images/mysql.webp");
   background-position: center;
   background-size: cover;
 }
 
 .accordion ul li:nth-child(6) {
-  background-image: url("/assets/images/symfony.jpg");
+  background-image: url("/assets/images/symfony.webp");
   background-position: center;
   background-size: cover;
 }
@@ -391,4 +391,13 @@ h1 {
     width: 130px;
     height: 130px;
   }
+}
+
+@media (max-width: 390.98px) {
+
+  .circle-chart {
+    width: 80px;
+    height: 80px;
+  }
+
 }

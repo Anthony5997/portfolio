@@ -6015,7 +6015,7 @@ html {
   box-sizing: border-box;
   font-size: 100%;
   --color-dark-blue: #f1c40f;
-  --color-light-blue: #78757e85;
+  --color-light-blue: #454349;
   --color-white: #f7f3f3;
   --color-black-text: #202020;
   font: 18px/1.5 "Nunito", sans-serif;
@@ -6450,37 +6450,37 @@ h1, .h1 {
 }
 
 .accordion ul li:nth-child(1) {
-  background-image: url("/assets/images/html5.jpg");
+  background-image: url("/assets/images/html5.webp");
   background-position: center;
   background-size: cover;
 }
 
 .accordion ul li:nth-child(2) {
-  background-image: url("/assets/images/css3.jpg");
+  background-image: url("/assets/images/css3.webp");
   background-position: center;
   background-size: cover;
 }
 
 .accordion ul li:nth-child(3) {
-  background-image: url("/assets/images/php.png");
+  background-image: url("/assets/images/php.webp");
   background-position: center;
   background-size: cover;
 }
 
 .accordion ul li:nth-child(4) {
-  background-image: url("/assets/images/javascript.png");
+  background-image: url("/assets/images/javascript.webp");
   background-position: center;
   background-size: cover;
 }
 
 .accordion ul li:nth-child(5) {
-  background-image: url("/assets/images/mysql.png");
+  background-image: url("/assets/images/mysql.webp");
   background-position: center;
   background-size: cover;
 }
 
 .accordion ul li:nth-child(6) {
-  background-image: url("/assets/images/symfony.jpg");
+  background-image: url("/assets/images/symfony.webp");
   background-position: center;
   background-size: cover;
 }
@@ -6703,6 +6703,12 @@ h1, .h1 {
   .circle-chart {
     width: 130px;
     height: 130px;
+  }
+}
+@media (max-width: 390.98px) {
+  .circle-chart {
+    width: 80px;
+    height: 80px;
   }
 }
 #about {
@@ -7230,6 +7236,51 @@ img {
   border-radius: 50%;
 }
 
+/*****LANGUAGE LOGO*****/
+.slide-item .logo-language-105 {
+  width: 105px;
+  height: 75px;
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.slide-item .logo-language-120 {
+  width: 120px;
+  height: 55px;
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.slide-item .logo-language-130 {
+  width: 130px;
+  height: 90px;
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 390.98px) {
+  .slide-item .logo-language-105 {
+    width: 60px;
+    height: 35px;
+    box-shadow: none;
+    margin-bottom: 10px;
+  }
+
+  .slide-item .logo-language-120 {
+    width: 60px;
+    height: 35px;
+    box-shadow: none;
+    margin-bottom: 10px;
+  }
+
+  .slide-item .logo-language-130 {
+    width: 80px;
+    height: 45px;
+    box-shadow: none;
+    margin-bottom: 10px;
+  }
+}
+/*****LANGUAGE LOGO*****/
 @media (max-width: 840px) {
   .wrapper {
     height: 430px;

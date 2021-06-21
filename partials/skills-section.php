@@ -159,7 +159,7 @@
         <h2><i class='fas fa-laptop' style='font-size:24px'></i> HTML 5</h2>
         <p style="text-align: justify;">
             <p style="text-align: justify;">Related language :  <br>
-            <img src="assets/images/twig.png" style="width:105px; height:75px; box-shadow: none;"><br>
+            <img src="assets/images/twig.webp" style="width:105px; height:75px; box-shadow: none;"><br>
                 Basic language web for structuring web site and user interface, send form.
             </p>
         </p>
@@ -169,9 +169,9 @@
         <p style="text-align: justify;"> Tools and Frameworks :  <br>
             <div class="row">
                 <img src="assets/images/bootstrap.jpg" style="width:105px; height:75px; box-shadow: none;">
-                <img src="assets/images/materialize.png" style="width:120px; height:55px; margin-top: 15px; box-shadow: none;">
-                <img src="assets/images/sass.png" style="width:105px; height:75px; box-shadow: none;">
-                <img src="assets/images/codyhouse.png" style="width:105px; height:75px; box-shadow: none;">
+                <img src="assets/images/materialize.webp" style="width:120px; height:55px; margin-top: 15px; box-shadow: none;">
+                <img src="assets/images/sass.webp" style="width:105px; height:75px; box-shadow: none;">
+                <img src="assets/images/codyhouse.webp" style="width:105px; height:75px; box-shadow: none;">
             </div>
             <br>
             I used many CSS's framework and library in many project like Boostrap, Materialize and CodyHouse. Using Sass for compiled css version.
@@ -180,15 +180,15 @@
     <div style="display: none;" id="eh">
         <h2><i class='fab fa-php' style='font-size:24px'></i> PHP 7.~</h2>
         <p  style="text-align: justify;"> Tools and Frameworks : <br>
-            <img class="col-sm-1" src="assets/images/synfony-mini.jpg" style="width:130px; height:90px; box-shadow: none; margin-bottom: 10px;">
-            <img class="col-sm-1" src="assets/images/twig.png" style="width:105px; height:75px; box-shadow: none; margin-bottom: 10px;"><br>
+             <i class='fab fa-symfony' style='font-size:48px;color:black'></i>
+            <img class="col-sm-1" src="assets/images/twig.webp" style="width:105px; height:75px; box-shadow: none; margin-bottom: 10px;"><br>
             I realise many project on PHP. First in the procedural way, then in Oriented Object. I used many tool in PHP like the twig language, even if twig in perfect with symfony, this language can work in standalone.
         </p>
     </div>
     <div style="display: none;" id="wd">
         <h2><i class='fab fa-js' style='font-size:24px'></i> Javascript</h2>
         <p  style="text-align: justify;"> Framework : <br>
-        <img class="col-sm-1" src="assets/images/jquery.png" style="width:105px; height:75px; box-shadow: none; margin-bottom: 10px;"></br>
+        <img class="col-sm-1" src="assets/images/jquery.webp" style="width:105px; height:75px; box-shadow: none; margin-bottom: 10px;"></br>
         I like to use js for asynchrone with json and the fetch method. I practice Jquery too, to add short and working script instead of vanilla Javascript. 
         </p>
     </div>
@@ -202,8 +202,8 @@
         <h2><i class='fab fa-symfony' style='font-size:24px; color:black;'></i> Symfony</h2>
         <p  style="text-align: justify;"> Tools :  <br>
         <div class="row">
-            <img class="col-sm-1" src="assets/images/twig.png" style="width:105px; height:75px; box-shadow: none; margin-bottom: 10px;"><br>
-            <img class="col-sm-1" src="assets/images/doctrine.png" style="width:105px; height:95px; box-shadow: none; margin-bottom: 10px;"></br>
+            <img class="col-sm-1" src="assets/images/twig.webp" style="width:105px; height:75px; box-shadow: none; margin-bottom: 10px;"><br>
+            <img class="col-sm-1" src="assets/images/doctrine.webp" style="width:105px; height:95px; box-shadow: none; margin-bottom: 10px;"></br>
         </div>
             Fantastic framework, a whole new way to see php and programming. With the class and manager builder, the crud and the generated template for each page.
             The route system, doctrine and more !  Great experience.
@@ -213,9 +213,9 @@
         <h2><i class='fa fa-code-fork' style='font-size:24px;color:black;'></i> Ressources </h2>
         <p  style="text-align: justify;"> Tools and Ressources : <br>
             <div class="row">
-                <img class="col-sm-1" src="assets/images/github.png" style="width:105px; height:75px; box-shadow: none; margin-bottom: 10px;"><br>
-                <img class="col-sm-1" src="assets/images/term.png" style="width:105px; height:95px; box-shadow: none; margin-bottom: 10px;"></br>
-                <img class="col-sm-1" src="assets/images/stackoverflow.png" style="width:105px; height:95px; box-shadow: none; margin-bottom: 10px;"></br>
+                <img class="col-sm-1" src="assets/images/github.webp" style="width:105px; height:75px; box-shadow: none; margin-bottom: 10px;"><br>
+                <img class="col-sm-1" src="assets/images/term.webp" style="width:105px; height:95px; box-shadow: none; margin-bottom: 10px;"></br>
+                <img class="col-sm-1" src="assets/images/stackoverflow.webp" style="width:105px; height:95px; box-shadow: none; margin-bottom: 10px;"></br>
             </div>
         Tool I used all the time in my work. Also for collaborative work with github.</p>
     </div>  
